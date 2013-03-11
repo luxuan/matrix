@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Matrix-Vector</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<style type="text/css">
+body {
+	margin:0;
+	padding:40px;
+	background:#fff;
+	font:70% Arial, Helvetica, sans-serif;
+	color:#555;
+	line-height:180%;
+}
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <h1>矩阵向量算法比较</h1><hr />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

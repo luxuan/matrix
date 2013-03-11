@@ -1,0 +1,61 @@
+/* 
+
+Css Chart created by Alen Grakalic
+Brought to you by Css Globe (cssglobe.com)
+
+*/
+div.xAxis{margin:0 0 0 27px;padding:0;float:left;clear:left;display:inline;width:80%;}
+div.yAxis{margin:14px 0 0 0;padding:0;display:inline;float:left;}
+.xAxis .xCssli{float:left; list-style:none;padding-right:2px;width:64px;text-align:center;}
+.yAxis .yCssli{
+	list-style:none;
+	height:33px;
+	text-align:right;
+	float:left;
+	clear:left;
+}
+
+		
+.csschart{
+	background:url(bg_chart.gif) no-repeat 0 0;
+	width:80%;
+	height:360px;
+	padding-left:11px;
+	float:left;
+	} 
+	
+.csssimple
+{
+	position:relative;
+	float:left;
+	display:inline;
+	width:66px;
+	height:330px;
+	margin-top:22px;	
+}
+	
+.csssimple span {
+	position:absolute;
+	width:66px;	
+	bottom:0px;
+	color:#555;
+	} 		
+.csssimple span b{
+	display:block;
+	font-weight:bold;
+	font-style:normal;
+	float:left;
+	line-height:200%;
+	color:#fff;
+	position:absolute;
+	top:5px;
+	left:3px;
+	text-align:center;
+	} 		
+
+
+.csssimple span {
+	height:50%;
+	background:url(subBar.png) repeat-y;
+	} 
+
